@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+h1{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(51, 63, 102) !important;
+  } 
+
+  
+
 /* -----------------------------------------------------------------------navbar css------------------------------------------------------ */
 
 
@@ -27,6 +34,8 @@
   position: sticky;
   top: 0;
   z-index: 10;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
 }
 
 #navbarNav {
@@ -45,6 +54,7 @@
   font-size: 20px;
   color: rgb(51, 63, 102) !important;
   position: relative;
+ 
 }
 
 #nav-bar ul li a:hover {
@@ -70,7 +80,7 @@
   left: 0;
   width: 0;
   height: 2px;
-  border-bottom: 2px solid #37701f;
+  border-bottom: 2px solid #309605;
   transition: 0.4s linear;
 }
 
@@ -96,7 +106,7 @@
 }
 
 /* ----------------------------------------------------------------------Our_services css--------------------------------------------------- */
-.dev-center h2 {
+.dev-center h1{
   color: rgb(51, 63, 102) !important;
   text-align: center;
 }
@@ -120,6 +130,7 @@
 {
   font-size: 18px;
   transition: .7s;
+  color: #375a28;
 }
 
 .ahn .text:hover
@@ -153,7 +164,7 @@ background-color: rgb(204, 224, 250)  !important;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(Images/pic.jpg);
   text-align: center;
-  color: white;
+  color: white !important;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -162,6 +173,12 @@ background-color: rgb(204, 224, 250)  !important;
   font-weight: bold;
   font-family: sans-serif;
 }
+
+#promo h1
+{
+  color: white !important;
+}
+
 
 #promo .btn a
 {
@@ -211,6 +228,8 @@ box-shadow:0 4px 30px black;
   font-size: 25px;
   font-weight: 600;
   color: #37701f !important;
+
+
 }
 
 .content .Sub-title {
@@ -223,7 +242,7 @@ box-shadow:0 4px 30px black;
   background: red;
   align-items: center;
   margin: 15px 10px;
-  /* box-shadow:0 4px 30px rgb(194, 195, 236); */
+  box-shadow:0 4px 30px rgb(194, 195, 236);
 }
 
 .card .img-sec {
@@ -253,8 +272,36 @@ hr {
   }
   
 .footer {
-  background-color: #86868d;
+  
+  background-color: rgb(143, 175, 223);
   height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 400;
+  
+}
+
+.about_us a
+{
+  color: black;
+}
+
+.about_us a:hover
+{
+  color: black;
+ 
+}
+
+.contact li a
+{
+  font-size: 20px;
+  transition: .7s;
+}
+
+.contact li a:hover
+{
+font-size: 28px;
+
+
 }
 
 .footer h2 {
@@ -263,16 +310,28 @@ hr {
 }
 
 .footer-body {
-  padding: 30px;
+  padding: 15px;
   font-size: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+ 
+}
+
+.footer-body p
+{
+  font-size: 30px;
+}
+
+.footer-body .links a
+{
+  font-size: 26px;
 }
 
 .footer-copyright {
-  background-color: black;
+  background-color: rgb(24, 38, 85);
+  
   color: white;
   text-align: center;
   padding: 20px;
@@ -282,7 +341,7 @@ hr {
 }
 
 .footer-copyright p {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .footer-body ul {
@@ -292,3 +351,4 @@ hr {
 .footer-body ul a {
   color: black;
 }
+/* ----------------------------------------------------- */
