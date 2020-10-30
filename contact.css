@@ -29,7 +29,7 @@
     z-index: 10;
   }
   
-  .navbar-brand img {
+  #navbarNav {
     /* height: 50px; */
     padding-left: 30px;
   }
@@ -98,8 +98,20 @@ hr {
 
   .contactbody
   {
-    background-color: rgb(187, 233, 247);
+    /* background-color: rgb(187, 233, 247); */
     font-weight: 500;
+  }
+
+  .aa
+  {
+    background-color: rgb(214, 234, 240);
+    padding-right: 10px;
+  }
+
+  .bb
+  {
+    background-color: rgb(189, 240, 187);
+
   }
 
   .card-body
@@ -135,6 +147,7 @@ transition: .7s;
 .col-12
 {
   text-align: center;
+ 
 }
 
 .card-footer 
@@ -156,7 +169,7 @@ transition: .7s;
 
 .card-header
 {
-    background-color:#e0ece4;
+    background-color:#e0eaec;
     opacity: 0.9;
     /* background-color: black; */
     border-bottom: 1px solid
@@ -165,6 +178,11 @@ transition: .7s;
 .col-12 {
     text-align: center;
     padding-top: 12px;;
+}
+.row-content
+{
+/* max-width: 96 !important; */
+padding-right: 25px;
 }
 
 .form-group {

@@ -28,11 +28,10 @@
     z-index: 10;
   }
   
-  .navbar-brand img {
+  #navbarNav {
     /* height: 50px; */
     padding-left: 30px;
   }
-  
   .navbar-nav li {
     padding: 0 8px;
   }
@@ -107,8 +106,8 @@ opacity: 0.95;
     border: rgb(61, 61, 61) solid;
 
     transition: all 1s linear;
-    box-shadow: 30px 20px  #afe498;
-    /* box-shadow: violet sol; */
+    box-shadow: 30px 20px  #d3fcc2;
+    box-shadow:0 4px 30px rgb(132, 133, 223);
     padding: 10px;
     margin: 10px;
     margin-right: 20px;
@@ -119,6 +118,7 @@ opacity: 0.95;
 .aa  img:hover
 {
     transform: scale(0.9);
+    box-shadow: 30px 20px  #d3fcc2;
 }
 
 .ak
