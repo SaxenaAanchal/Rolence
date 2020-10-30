@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* -----------------------------------------------------------------------navbar css------------------------------------------------------ */
+
+
+.ss img
+{
+  border-radius: 24px;
+  transition: 0.5s;
+  border: 2px solid rgb(220, 243, 220);;
+  /* border: black solid; */
+}
+
+.ss img:hover
+{
+  transform: scale(1.03);
+  box-shadow:0 4px 30px #98be89;
+  /* box-shadow: 4px 9px  #98be89; */
+}
+
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar-brand img {
+  /* height: 50px; */
+  padding-left: 30px;
+}
+
+.navbar-nav li {
+  padding: 0 8px;
+}
+
+.navbar-nav li a {
+  float: right;
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(51, 63, 102) !important;
+  position: relative;
+}
+
+#nav-bar ul li a:hover {
+  color: rgb(3, 13, 43) !important;
+}
+
+.navbar {
+  background: #fff;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.first-child {
+  color: #37701f !important;
+}
+
+.navbar-nav a:before {
+  content: "";
+  position: absolute;
+  top: 110%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  border-bottom: 2px solid #37701f;
+  transition: 0.4s linear;
+}
+
+.navbar-nav a:hover:before {
+  width: 100%;
+}
+
+/* -----------------------------------------------------------------------carousel css----------------------------------------------------- */
+.carousel-inner img {
+  background-size: 100% 150%;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+}
+
+#slider {
+  width: 100%;
+}
+
+.carousel-caption h5 {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+/* ----------------------------------------------------------------------Our_services css--------------------------------------------------- */
+.dev-center h2 {
+  color: rgb(51, 63, 102) !important;
+  text-align: center;
+}
+
+.dev-center ul {
+  list-style: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-sm-12 .row1 {
+  text-align: center;
+  line-height: 39px;
+}
+
+
+
+.ahn .text
+{
+  font-size: 18px;
+  transition: .7s;
+}
+
+.ahn .text:hover
+{
+font-size: 22px;
+font-weight: 900;
+color:  #53813f;
+}
+
+.ahn .fa
+{
+  transition: .7s;
+  width: 200px;
+height: 80px;
+/* box-shadow:0 4px 30px black; */
+}
+
+.ahn .fa:hover
+{
+/* border-color: tan; */
+box-shadow:0 4px 30px black;
+width: 210px;
+height: 100px;
+border-radius: 24px;
+background-color: rgb(204, 224, 250)  !important;
+/* box-shadow: ; */
+}
+
+/* -----------------------------------------------------------------Design css----------------------------------------------------- */
+#promo {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(Images/pic.jpg);
+  text-align: center;
+  color: white;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  padding: 100px;
+  font-size: 38px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+#promo .btn a
+{
+  color: #fff ;
+}
+
+#promo .btn 
+{
+  width: 200px;
+    font-size: 20px !important;
+    /* background-color: rgb(252, 49, 49); */
+    border-radius: 15px !important;
+    transition: 1s !important;
+    height: 50px;
+    box-shadow:0 4px 30px rgb(165, 45, 45);
+}
+#promo .btn:hover
+{
+  background-color: rgb(17, 16, 16)  !important;
+color: white  !important;
+border: rgb(10, 10, 10);
+width: 210px;
+height: 60px;
+box-shadow:0 4px 30px black;
+}
+
+
+/* ------------------------------------------------------------------Our_Team css----------------------------------------------------- */
+.team {
+  max-width: 1150px;
+  display: flex;
+  /* this auto property is very important */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team-sec {
+  text-align: center;
+}
+
+.team-sec .heading h1 {
+  color: rgb(51, 63, 102) !important;
+}
+
+.content .title {
+  font-size: 25px;
+  font-weight: 600;
+  color: #37701f !important;
+}
+
+.content .Sub-title {
+  font-size: 20px;
+  font-weight: 600;
+  /* line-height: 20px; */
+}
+
+.card {
+  background: red;
+  align-items: center;
+  margin: 15px 10px;
+}
+
+.card .img-sec {
+  width: 100%;
+  height: 100%;
+}
+
+.card .img-sec img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ------------------------------------------------------------------Hr css----------------------------------------------------- */
+hr {
+  width: 100%;
+  height: 90px;
+  color: darkblue;
+  background-color: darkblue;
+}
+
+/* ------------------------------------------------------------------Footer css----------------------------------------------------- */
+.xtra_space
+  {
+    margin-right: 0px !important;
+  }
+  
+.footer {
+  background-color: #86868d;
+  height: 300px;
+}
+
+.footer h2 {
+  color: rgb(51, 63, 102) !important;
+  font-weight: bold;
+}
+
+.footer-body {
+  padding: 30px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-copyright {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.footer-copyright p {
+  font-size: 15px;
+}
+
+.footer-body ul {
+  list-style: none;
+}
+
+.footer-body ul a {
+  color: black;
+}

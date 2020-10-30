@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* ------------------------------------------------------navbarcss--------------------------------------------------- */
+  
+  
+ img
+{
+  border-radius: 24px;
+  transition: 0.5s;
+  border: 2px solid rgb(220, 243, 220);;
+  /* border: black solid; */
+}
+
+.ss img:hover
+{
+  transform: scale(1.03);
+  box-shadow:0 4px 30px #98be89;
+  /* box-shadow: 4px 9px  #98be89; */
+}
+
+
+  #nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .navbar-brand img {
+    /* height: 50px; */
+    padding-left: 30px;
+  }
+  
+  .navbar-nav li {
+    padding: 0 8px;
+  }
+  
+  .navbar-nav li a {
+    float: right;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(51, 63, 102) !important;
+    position: relative;
+  }
+  
+  #nav-bar ul li a:hover {
+    color: rgb(3, 13, 43) !important;
+  }
+  
+  .navbar {
+    background: #fff;
+  }
+  
+  .navbar-toggler {
+    border: none !important;
+  }
+  
+  .first-child {
+    color: #37701f !important;
+  }
+  
+  .navbar-nav a:before {
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    border-bottom: 2px solid #37701f;
+    transition: 0.4s linear;
+  }
+  
+  .navbar-nav a:hover:before {
+    width: 100%;
+  }
+
+
+  /* ------------------------------------------------------------------Hr css----------------------------------------------------- */
+hr {
+    width: 100%;
+    height: 90px;
+    color: darkblue;
+    background-color: darkblue;
+  }
+
+
+/* ------------------------------------------------team_section--------------------------------------------------- */
+.heading
+{
+    text-align: center;
+    font-size: 50px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.image-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 171px;
+}
+
+.info
+{
+height: 340px ;
+padding: 2px;
+margin: 3px;
+}
+
+.info h3
+{
+    margin-top: 33px;
+    margin-bottom: 17px;
+}
+
+.image
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 9px solid black; */
+    margin: 2px 50px;
+    box-shadow: salmon;
+    /* background: sienna; */
+}
+
+.image img:hover
+{
+    box-shadow: 0px 0px 50px royalblue;
+}
+
+.image img
+{
+    width: 116px;
+    height: 116px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+.info-container
+{
+    width: 1100px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(230, 233, 229);
+    margin: 50px auto;
+    margin-bottom: 70px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 50px royalblue;
+
+}
+
+ .profile
+{
+    
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+    padding: 10px;
+    margin:0;
+    /* margin-left: -500px; */
+} 
+
+
+
+.name
+{
+    margin-top: 80px;
+    padding: 0px 15px;
+    text-align: left;
+    line-height: 20px;
+    font-size: 50px;
+
+}
+
+.status
+{
+    padding: 0px 20px;
+    text-align: left;
+    line-height: 20px;
+    margin: 0;
+}
+
+.about
+{
+    height: 240px;
+    padding: 0px 20px;
+}
+
+
+
+  /* ------------------------------------------------------------------Footer css----------------------------------------------------- */
+
+  .xtra_space
+  {
+    margin-right: 0px !important;
+  }
+
+  .footer {
+    background-color: #86868d;
+    height: 300px;
+  }
+  
+  .footer h2 {
+    color: rgb(51, 63, 102) !important;
+    font-weight: bold;
+  }
+  
+  .footer-body {
+    padding: 30px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .footer-copyright {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+  
+  .footer-copyright p {
+    font-size: 15px;
+  }
+  
+  .footer-body ul {
+    list-style: none;
+  }
+  
+  .footer-body ul a {
+    color: black;
+  }
+  
