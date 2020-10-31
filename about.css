@@ -192,13 +192,13 @@ opacity: 0.95;
 
 .contact li a
 {
-  font-size: 20px;
+  font-size: 17px;
   transition: .7s;
 }
 
 .contact li a:hover
 {
-font-size: 28px;
+font-size: 22px;
 
 
 }
@@ -220,12 +220,13 @@ font-size: 28px;
 
 .footer-body p
 {
-  font-size: 30px;
+  font-size: 28px;
+  line-height: 49px;
 }
 
 .footer-body .links a
 {
-  font-size: 26px;
+  font-size: 22px;
 }
 
 .footer-copyright {
@@ -240,7 +241,7 @@ font-size: 28px;
 }
 
 .footer-copyright p {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .footer-body ul {

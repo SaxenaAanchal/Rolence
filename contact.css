@@ -148,8 +148,8 @@ transition: .7s;
 #map:hover
 {
     box-shadow:0 10px 20px black;
-    height: 350px;
-    width:80%;
+    /* height: 350px; */
+    /* width:80%; */
 }
 
 .mapp,.add h2
@@ -269,8 +269,8 @@ h5
   background-color: rgb(17, 16, 16)  !important;
 color: white  !important;
 border: rgb(10, 10, 10);
-width: 210px;
-height: 60px;
+/* width: 210px; */
+/* height: 60px; */
 box-shadow:0 4px 30px black;
 /* box-shadow: yellowgreen; */
 }
@@ -316,13 +316,13 @@ h5
 
 .contact li a
 {
-  font-size: 20px;
+  font-size: 17px;
   transition: .7s;
 }
 
 .contact li a:hover
 {
-font-size: 28px;
+font-size: 22px;
 
 
 }
@@ -344,12 +344,13 @@ font-size: 28px;
 
 .footer-body p
 {
-  font-size: 30px;
+  font-size: 28px;
+  line-height: 49px;
 }
 
 .footer-body .links a
 {
-  font-size: 26px;
+  font-size: 22px;
 }
 
 .footer-copyright {
@@ -364,7 +365,7 @@ font-size: 28px;
 }
 
 .footer-copyright p {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .footer-body ul {

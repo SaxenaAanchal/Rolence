@@ -43,7 +43,7 @@
 {
   transform: scale(1.03);
   box-shadow:0 4px 30px #98be89;
-  /* box-shadow: 4px 9px  #98be89; */
+  
 }
 
 #nav-bar {
@@ -132,11 +132,6 @@ hr {
     height: 171px;
 }
 
-.image-container img
-{
-
-}
-
 .info
 {
 height: 340px ;
@@ -166,7 +161,7 @@ margin: 3px;
 
 .image img:hover
 {
-    box-shadow: 0px 0px 50px royalblue;
+    /* box-shadow: 0px 0px 50px royalblue; */
     width: 130px;
     height: 130px;
 }
@@ -219,7 +214,7 @@ margin: 3px;
 .profile:hover
 {
  
-  box-shadow: 0px 0px 50px rgb(10, 10, 10);
+  /* box-shadow: 0px 0px 50px rgb(10, 10, 10); */
 }
 
 .name
@@ -276,13 +271,13 @@ margin: 3px;
 
 .contact li a
 {
-  font-size: 20px;
+  font-size: 17px;
   transition: .7s;
 }
 
 .contact li a:hover
 {
-font-size: 28px;
+font-size: 22px;
 
 
 }
@@ -304,12 +299,13 @@ font-size: 28px;
 
 .footer-body p
 {
-  font-size: 30px;
+  font-size: 28px;
+  line-height: 49px;
 }
 
 .footer-body .links a
 {
-  font-size: 26px;
+  font-size: 22px;
 }
 
 .footer-copyright {
@@ -324,7 +320,7 @@ font-size: 28px;
 }
 
 .footer-copyright p {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .footer-body ul {
