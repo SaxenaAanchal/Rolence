@@ -162,7 +162,7 @@ background-color: rgb(204, 224, 250)  !important;
 /* -----------------------------------------------------------------Design css----------------------------------------------------- */
 #promo {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(Images/pic.jpg);
+    url(src/images/index_images/pic.jpg);
   text-align: center;
   color: white !important;
   background-attachment: fixed;
@@ -206,7 +206,7 @@ box-shadow:0 4px 30px black;
 }
 
 
-/* ------------------------------------------------------------------Our_Team css----------------------------------------------------- */
+/* ------------------------------------------------------------------Doubts css----------------------------------------------------- */
 .team {
   max-width: 1150px;
   display: flex;
