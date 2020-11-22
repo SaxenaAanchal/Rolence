@@ -162,7 +162,7 @@ background-color: rgb(204, 224, 250)  !important;
 /* -----------------------------------------------------------------Design css----------------------------------------------------- */
 #promo {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(src/images/index_images/pic.jpg);
+  url(src/images/index_images/pic.jpg);
   text-align: center;
   color: white !important;
   background-attachment: fixed;
@@ -354,3 +354,5 @@ font-size: 22px;
 .footer-body ul a {
   color: black;
 }
+
+
