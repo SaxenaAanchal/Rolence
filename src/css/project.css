@@ -2,39 +2,34 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
-.jj h1{
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
- font-size: 50px !important;
- color: rgb(51, 63, 102) !important;
+.jj h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 50px !important;
+  color: rgb(51, 63, 102) !important;
+}
 
-  } 
-
-  h3,p
-  {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-  }
-
- 
+h3,
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
 
 /* ------------------------------------------------------navbarcss--------------------------------------------------- */
 
-.ss img
-{
+.ss img {
   border-radius: 24px;
   transition: 0.5s;
-  
-  border: 2px solid rgb(220, 243, 220);;
+
+  border: 2px solid rgb(220, 243, 220);
   /* border: black solid; */
 }
 
-.ss img:hover
-{
+.ss img:hover {
   transform: scale(1.03);
-  box-shadow:0 4px 30px #98be89;
+  box-shadow: 0 4px 30px #98be89;
   /* box-shadow: 4px 9px  #98be89; */
 }
 
@@ -42,7 +37,7 @@
   position: sticky;
   top: 0;
   z-index: 10;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 25px;
 }
 
@@ -62,7 +57,6 @@
   font-size: 20px;
   color: rgb(51, 63, 102) !important;
   position: relative;
- 
 }
 
 #nav-bar ul li a:hover {
@@ -106,99 +100,83 @@ hr {
 
 /* -- ------------------------------------------------------project_sec-------------------------------------------------- */
 
- h1 {
+h1 {
   text-align: center;
 }
 
-.project_sec
-{
-    width: 90vw;
-    /* display: flex; */
-    /* text-align: center; */
-    margin: auto;
-    /* background: rgb(158, 159, 160); */
-    /* background-image: linear-gradient(red,green,to left); */
-   
+.project_sec {
+  width: 90vw;
+  /* display: flex; */
+  /* text-align: center; */
+  margin: auto;
+  /* background: rgb(158, 159, 160); */
+  /* background-image: linear-gradient(red,green,to left); */
 }
-.imagees
-{
- /* height: 100vh; */
- display: flex;
- /* justify-content: space-around !important; */
- 
- align-items: center;
- margin-bottom: 20px;
-margin-top: 20px;
+.imagees {
+  /* height: 100vh; */
+  display: flex;
+  /* justify-content: space-around !important; */
+
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
-
-figure
-{
-    height: 400px;
-    border-radius: 15px;
-    overflow: hidden;
-    position: relative;
-    /* padding-left: 30px;
+figure {
+  height: 400px;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  /* padding-left: 30px;
     padding-right: 30px; */
-   /* margin-left: 30px;
+  /* margin-left: 30px;
     margin-right: 30px; */
-    box-shadow: 0px 0px 50px rgb(10, 10, 10);
-    
+  box-shadow: 0px 0px 50px rgb(10, 10, 10);
 }
 
-figure img
-{
-    height: 400px;
-    transition: all 0.5s linear;
-    border-radius: 15px;
-  
+figure img {
+  height: 400px;
+  transition: all 0.5s linear;
+  border-radius: 15px;
 }
 
-figcaption
-{
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: black;
-    color: white;
-     display: flex;
-/* background: rgba(0,0,0,0.5); */
- text-align: center;
- justify-content: center !important;
-    flex-direction: column; 
-    text-transform: uppercase;
-    opacity: 0;
-    transition: all 1s linear;
-    /* margin-top: 60px; */
+figcaption {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  color: white;
+  display: flex;
+  /* background: rgba(0,0,0,0.5); */
+  text-align: center;
+  justify-content: center !important;
+  flex-direction: column;
+  text-transform: uppercase;
+  opacity: 0;
+  transition: all 1s linear;
+  /* margin-top: 60px; */
 }
 
-figcaption h3
-{
-    margin-top: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
-
+figcaption h3 {
+  margin-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-figcaption h1
-{
-margin-top: 120px;
-margin-bottom: 20px;
+figcaption h1 {
+  margin-top: 120px;
+  margin-bottom: 20px;
 }
 
-figure:hover img
-{
-    transform: scale(1.4);
-    
+figure:hover img {
+  transform: scale(1.4);
 }
 
-figure:hover figcaption
-{
-    opacity: 1;
-    background: rgba(0,0,0,0.7);
-
+figure:hover figcaption {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.7);
 }
 
 /* .row
@@ -207,42 +185,32 @@ figure:hover figcaption
   justify-content: space-around !important;
 } */
 /* ------------------------------------------------------------------Footer css----------------------------------------------------- */
-.xtra_space
-  {
-    margin-right: 0px !important;
-  }
-  
+.xtra_space {
+  margin-right: 0px !important;
+}
+
 .footer {
-  
   background-color: rgb(143, 175, 223);
   height: 300px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 400;
-  
 }
 
-.about_us a
-{
+.about_us a {
   color: black;
 }
 
-.about_us a:hover
-{
+.about_us a:hover {
   color: black;
- 
 }
 
-.contact li a
-{
+.contact li a {
   font-size: 17px;
-  transition: .7s;
+  transition: 0.7s;
 }
 
-.contact li a:hover
-{
-font-size: 22px;
-
-
+.contact li a:hover {
+  font-size: 22px;
 }
 
 .footer h2 {
@@ -257,23 +225,20 @@ font-size: 22px;
   justify-content: center;
   align-items: center;
   text-align: center;
- 
 }
 
-.footer-body p
-{
+.footer-body p {
   font-size: 28px;
   line-height: 49px;
 }
 
-.footer-body .links a
-{
+.footer-body .links a {
   font-size: 22px;
 }
 
 .footer-copyright {
   background-color: rgb(24, 38, 85);
-  
+
   color: white;
   text-align: center;
   padding: 20px;
@@ -292,4 +257,28 @@ font-size: 22px;
 
 .footer-body ul a {
   color: black;
+}
+
+.super-card img {
+  max-width: 350px;
+  display: block;
+  transition: transform 0.4s; /* smoother zoom */
+}
+.super-card {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.super-card-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: 900;
+}
+.super-card:hover img {
+  transform: scale(1.3);
+  transform-origin: 50% 50%;
 }
