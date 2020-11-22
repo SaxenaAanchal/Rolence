@@ -4,29 +4,25 @@
   box-sizing: border-box;
 }
 
-h1{
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: rgb(51, 63, 102) !important;
-  } 
-
-  
+}
 
 /* -----------------------------------------------------------------------navbar css------------------------------------------------------ */
 
-
-.ss img
-{
+.ss img {
   border-radius: 24px;
   transition: 0.5s;
-  
-  border: 2px solid rgb(220, 243, 220);;
+
+  border: 2px solid rgb(220, 243, 220);
   /* border: black solid; */
 }
 
-.ss img:hover
-{
+.ss img:hover {
   transform: scale(1.03);
-  box-shadow:0 4px 30px #98be89;
+  box-shadow: 0 4px 30px #98be89;
   /* box-shadow: 4px 9px  #98be89; */
 }
 
@@ -34,7 +30,7 @@ h1{
   position: sticky;
   top: 0;
   z-index: 10;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 25px;
 }
 
@@ -54,7 +50,6 @@ h1{
   font-size: 20px;
   color: rgb(51, 63, 102) !important;
   position: relative;
- 
 }
 
 #nav-bar ul li a:hover {
@@ -106,7 +101,7 @@ h1{
 }
 
 /* ----------------------------------------------------------------------Our_services css--------------------------------------------------- */
-.dev-center h1{
+.dev-center h1 {
   color: rgb(51, 63, 102) !important;
   text-align: center;
 }
@@ -124,45 +119,39 @@ h1{
   line-height: 39px;
 }
 
-
-
-.ahn .text
-{
+.ahn .text {
   font-size: 18px;
-  transition: .7s;
+  transition: 0.7s;
   color: #375a28;
 }
 
-.ahn .text:hover
-{
-font-size: 22px;
-font-weight: 900;
-color:  #53813f;
+.ahn .text:hover {
+  font-size: 22px;
+  font-weight: 900;
+  color: #53813f;
 }
 
-.ahn .fa
-{
-  transition: .7s;
+.ahn .fa {
+  transition: 0.7s;
   width: 200px;
-height: 80px;
-/* box-shadow:0 4px 30px black; */
+  height: 80px;
+  /* box-shadow:0 4px 30px black; */
 }
 
-.ahn .fa:hover
-{
-/* border-color: tan; */
-box-shadow:0 4px 30px black;
-width: 210px;
-height: 100px;
-border-radius: 24px;
-background-color: rgb(204, 224, 250)  !important;
-/* box-shadow: ; */
+.ahn .fa:hover {
+  /* border-color: tan; */
+  box-shadow: 0 4px 30px black;
+  width: 210px;
+  height: 100px;
+  border-radius: 24px;
+  background-color: rgb(204, 224, 250) !important;
+  /* box-shadow: ; */
 }
 
 /* -----------------------------------------------------------------Design css----------------------------------------------------- */
 #promo {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url(src/images/index_images/pic.jpg);
+    url("../images/index_images/pic.jpg");
   text-align: center;
   color: white !important;
   background-attachment: fixed;
@@ -174,37 +163,31 @@ background-color: rgb(204, 224, 250)  !important;
   font-family: sans-serif;
 }
 
-#promo h1
-{
+#promo h1 {
   color: white !important;
 }
 
-
-#promo .btn a
-{
-  color: #fff ;
+#promo .btn a {
+  color: #fff;
 }
 
-#promo .btn 
-{
+#promo .btn {
   width: 200px;
-    font-size: 20px !important;
-    /* background-color: rgb(252, 49, 49); */
-    border-radius: 15px !important;
-    transition: 1s !important;
-    height: 50px;
-    box-shadow:0 4px 30px rgb(165, 45, 45);
+  font-size: 20px !important;
+  /* background-color: rgb(252, 49, 49); */
+  border-radius: 15px !important;
+  transition: 1s !important;
+  height: 50px;
+  box-shadow: 0 4px 30px rgb(165, 45, 45);
 }
-#promo .btn:hover
-{
-  background-color: rgb(17, 16, 16)  !important;
-color: white  !important;
-border: rgb(10, 10, 10);
-/* width: 210px;
+#promo .btn:hover {
+  background-color: rgb(17, 16, 16) !important;
+  color: white !important;
+  border: rgb(10, 10, 10);
+  /* width: 210px;
 height: 60px; */
-box-shadow:0 4px 30px black;
+  box-shadow: 0 4px 30px black;
 }
-
 
 /* ------------------------------------------------------------------Doubts css----------------------------------------------------- */
 .team {
@@ -213,7 +196,6 @@ box-shadow:0 4px 30px black;
   /* this auto property is very important */
   margin-left: auto;
   margin-right: auto;
- 
 }
 
 .team-sec {
@@ -228,8 +210,6 @@ box-shadow:0 4px 30px black;
   font-size: 25px;
   font-weight: 600;
   color: #37701f !important;
-
-
 }
 
 .content .Sub-title {
@@ -242,21 +222,20 @@ box-shadow:0 4px 30px black;
   background: red;
   align-items: center;
   margin: 15px 10px;
-  border-radius:15px !important;
+  border-radius: 15px !important;
   /* box-shadow:0 4px 30px rgb(194, 195, 236); */
 }
 
 .card .img-sec {
   width: 100%;
   height: 100%;
- 
 }
 
 .card .img-sec img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius:15px; 
+  border-radius: 15px;
 }
 
 /* ------------------------------------------------------------------Hr css----------------------------------------------------- */
@@ -268,42 +247,32 @@ hr {
 }
 
 /* ------------------------------------------------------------------Footer css----------------------------------------------------- */
-.xtra_space
-  {
-    margin-right: 0px !important;
-  }
-  
+.xtra_space {
+  margin-right: 0px !important;
+}
+
 .footer {
-  
   background-color: rgb(143, 175, 223);
   height: 300px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 400;
-  
 }
 
-.about_us a
-{
+.about_us a {
   color: black;
 }
 
-.about_us a:hover
-{
+.about_us a:hover {
   color: black;
- 
 }
 
-.contact li a
-{
+.contact li a {
   font-size: 17px;
-  transition: .7s;
+  transition: 0.7s;
 }
 
-.contact li a:hover
-{
-font-size: 22px;
-
-
+.contact li a:hover {
+  font-size: 22px;
 }
 
 .footer h2 {
@@ -318,23 +287,20 @@ font-size: 22px;
   justify-content: center;
   align-items: center;
   text-align: center;
- 
 }
 
-.footer-body p
-{
+.footer-body p {
   font-size: 28px;
   line-height: 49px;
 }
 
-.footer-body .links a
-{
+.footer-body .links a {
   font-size: 22px;
 }
 
 .footer-copyright {
   background-color: rgb(24, 38, 85);
-  
+
   color: white;
   text-align: center;
   padding: 20px;
@@ -355,4 +321,11 @@ font-size: 22px;
   color: black;
 }
 
-
+@media (max-width: 768px) {
+  .ahn .fa {
+    transition: 0.7s;
+    width: 100px;
+    height: 80px;
+    /* box-shadow:0 4px 30px black; */
+  }
+}
