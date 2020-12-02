@@ -129,7 +129,7 @@ opacity: 0.95;
     border-radius: 86% 14% 29% 71% / 38% 30% 70% 62%  ;
     border: rgb(61, 61, 61) solid;
 
-    transition: all 1s linear;
+    transition: all .6s linear;
     box-shadow: 30px 20px  #d3fcc2;
     box-shadow:0 4px 30px rgb(132, 133, 223);
     padding: 10px;
@@ -250,4 +250,41 @@ font-size: 22px;
 
 .footer-body ul a {
   color: black;
+}
+
+/* ----------------------------------------------------------media-query-------------------------------------------------------- */
+@media (max-width: 768px) 
+{
+  .ahn .fa 
+  {
+    transition: 0.7s;
+    width: 100px;
+    height: 80px;
+    /* box-shadow:0 4px 30px black; */
+  }
+
+  .footer
+{
+  height: 72vh;
+}
+
+
+.contact li
+{
+  display: inline;
+  padding-left: 12px;
+}
+
+.about_us p 
+{
+  line-height: 40px;
+  font-weight: 500;
+}
+
+.footer-copyright
+{
+  padding: 9px;
+}
+
+
 }

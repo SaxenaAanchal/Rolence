@@ -16,10 +16,10 @@
     <div id="nav-bar">
         <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand ss" href="#"><img src="src/images/logo.png"></a>
+            <!-- -------------------------code for adding drop-down button when screen size decreases to mobile size--------- -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
@@ -46,56 +46,50 @@
             </div>
         </nav>
     </div>
-<hr>
+    <hr>
 
     <!-- --------------------------------------------------------team_section---------------------------------->
     <div class="team_sec">
         <h1 class="heading">OUR TEAM</h1>
         <div class="image-container">
-            <div class="image" onclick="fetch_info(0)"><img src="src/images/team _images/bill.jpg"></div>
-            <div class="image" onclick="fetch_info(1)"><img src="src/images/team _images/aalia.jpg"></div>
-            <div class="image" onclick="fetch_info(2)"><img src="src/images/team _images/deep.jpg"></div>
-            <div class="image" onclick="fetch_info(3)"><img src="src/images/team _images/pichai.jpg"></div>
-        </div>
-
-        <div class="info-container">
-
-            <img class="profile" id="profile" src="src/images/team _images/bill.jpg">
-
-            <div class="info">
-                <h2 class="name" id="name">Rahul Goel</h2>
-                <h3 class="status" id="status">Sales & Marketing</h3>
-                <p class="about" id="about">He has over 10 years of experience in various businesses viz. power, telecom
-                    and textile. He did his B. Tech in Mechanical Engineering, in 2010 from VIT, Vellore. A fitness
-                    freak, provides easy solutions to the problems ahead.</p>
-
-
+            <div class="row">
+                <div class="image" onclick="fetch_info(0)" class="col col-6 col-lg-3">
+                    <img src="src/images/team _images/bill.jpg" >
+                </div>
+                <div class="image" onclick="fetch_info(1)" class="col col-6 col-lg-3">
+                    <img src="src/images/team _images/aalia.jpg" >
+                </div>
+                <div class="image" onclick="fetch_info(2)" class="col col-6 col-lg-3">
+                    <img src="src/images/team _images/deep.jpg" >
+                </div>
+                <div class="image" onclick="fetch_info(3)" class="col col-6 col-lg-3">
+                    <img src="src/images/team _images/pichai.jpg">
+                </div>
             </div>
+        </div>
+    </div>
+
+    <div class="info-container">
+
+        <img class="profile" id="profile" src="src/images/team _images/bill.jpg">
+
+        <div class="info">
+            <h2 class="name" id="name">Rahul Goel</h2>
+            <h3 class="status" id="status">Sales & Marketing</h3>
+            <p class="about" id="about">He has over 10 years of experience in various businesses viz. power, telecom
+                and textile. He did his B. Tech in Mechanical Engineering, in 2010 from VIT, Vellore. A fitness
+                freak, provides easy solutions to the problems ahead.</p>
+
 
         </div>
 
     </div>
 
+    </div>
+
     <hr>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- ---------------------------------------------------------footer------------------------------------------------- -->
-
-
-
     <div class="footer">
         <div class="row footer-body xtra_space">
             <div class="col-md-4 about_us">
@@ -124,7 +118,7 @@
 
                 </ul>
             </div>
-           
+
         </div>
         <div class="footer-copyright">
             <div class="row">

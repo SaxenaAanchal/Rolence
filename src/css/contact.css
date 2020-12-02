@@ -139,7 +139,7 @@ hr {
     margin: auto;
     margin-top: 0px;
     margin-bottom: 20px;
-transition: .7s;
+    transition: .7s;
     border: 3px solid black;
     border-radius: 30px;
     box-shadow: 16px 16px 22px black;
@@ -262,6 +262,7 @@ h5
     transition: 1s !important;
     height: 50px;
     box-shadow:0 4px 30px rgb(165, 45, 45);
+
 }
 
 .btnf:hover
@@ -374,4 +375,45 @@ font-size: 22px;
 
 .footer-body ul a {
   color: black;
+}
+
+/* ----------------------------------------------------------media-query-------------------------------------------------------- */
+@media (max-width: 768px) 
+{
+  .ahn .fa 
+  {
+    transition: 0.7s;
+    width: 100px;
+    height: 80px;
+    /* box-shadow:0 4px 30px black; */
+  }
+
+  .footer
+{
+  height: 72vh;
+}
+
+
+.contact li
+{
+  display: inline;
+  padding-left: 12px;
+}
+
+.about_us p 
+{
+  line-height: 40px;
+  font-weight: 500;
+}
+
+.footer-copyright
+{
+  padding: 9px;
+}
+
+address {
+  margin-left: 15px;
+}
+
+
 }

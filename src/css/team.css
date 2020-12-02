@@ -1,56 +1,48 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-   h2{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: rgb(51, 63, 102) !important;
-    } 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-    h1{
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-     font-size: 50px !important;
-     color: rgb(51, 63, 102) !important;
-     transition: 0.7s;
-      } 
-  
-      h1:hover
-      {
-        font-size: 60px !important;
-      }
+h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgb(51, 63, 102) !important;
+}
 
-      h3,p
-      {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 20px;
-      }
-  /* ------------------------------------------------------navbarcss--------------------------------------------------- */
-  
-  
- 
-.ss img
-{
+h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 55px !important;
+  color: rgb(51, 63, 102) !important;
+  transition: 0.7s;
+}
+
+h3,
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+/* ------------------------------------------------------navbarcss--------------------------------------------------- */
+
+.ss img {
   border-radius: 24px;
   transition: 0.5s;
-  
-  border: 2px solid rgb(220, 243, 220);;
+
+  border: 2px solid rgb(220, 243, 220);
   /* border: black solid; */
 }
 
-.ss img:hover
-{
+.ss img:hover {
   transform: scale(1.03);
-  box-shadow:0 4px 30px #98be89;
-  
+  box-shadow: 0 4px 30px #98be89;
 }
 
 #nav-bar {
   position: sticky;
   top: 0;
   z-index: 10;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 25px;
 }
 
@@ -70,7 +62,6 @@
   font-size: 20px;
   color: rgb(51, 63, 102) !important;
   position: relative;
- 
 }
 
 #nav-bar ul li a:hover {
@@ -104,182 +95,139 @@
   width: 100%;
 }
 
-
-  /* ------------------------------------------------------------------Hr css----------------------------------------------------- */
+/* ------------------------------------------------------------------Hr css----------------------------------------------------- */
 hr {
-    width: 100%;
-    height: 90px;
-    color: darkblue;
-    background-color: darkblue;
-  }
-
+  width: 100%;
+  height: 90px;
+  color: darkblue;
+  background-color: darkblue;
+}
 
 /* ------------------------------------------------team_section--------------------------------------------------- */
-.heading
-{
-    text-align: center;
-    font-size: 50px;
-    margin: 0px;
-    padding: 0px;
-    
+.heading {
+  text-align: center;
+  font-size: 50px;
+  margin: 0px;
+  padding: 0px;
 }
 
-.image-container
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 171px;
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 171px;
 }
 
-.info
-{
-height: 340px ;
-padding: 2px;
-margin: 3px;
+.info {
+  height: 340px;
+  padding: 2px;
+  margin: 3px;
 }
 
-.info h3
-{
-    margin-top: 33px;
-    margin-bottom: 17px;
+.info h3 {
+  margin-top: 33px;
+  margin-bottom: 17px;
 }
 
-.image
-{
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* border: 9px solid black; */
-    margin: 2px 50px;
-    box-shadow: salmon;
-    /* background: sienna; */
+.image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 9px solid black; */
+  margin: 2px 50px;
+  box-shadow: salmon;
+  /* background: sienna; */
 }
 
-.image img:hover
-{
-    /* box-shadow: 0px 0px 50px royalblue; */
-    width: 130px;
-    height: 130px;
+.image img:hover {
+  /* box-shadow: 0px 0px 50px royalblue; */
+  width: 130px;
+  height: 130px;
 }
 
-.image img
-{
-    width: 116px;
-    height: 116px;
-    border-radius: 50%;
-    border: 3px solid black;
-    transition: .4s !important;
+.image img {
+  width: 116px;
+  height: 116px;
+  border-radius: 50%;
+  border: 3px solid black;
+  transition: 0.4s !important;
 }
 
-.info-container
-{
-    width: 1100px;
-    height: 350px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgb(230, 233, 229);
-    margin: 50px auto;
-    margin-bottom: 70px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 50px royalblue;
-    transition: .9s !important;
-    overflow: hidden;
-}
-
-.info-container:hover
-{
-  /* width: 1100px;
-  height: 390px; */
+.info-container {
+  width: 1100px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(230, 233, 229);
+  margin: 50px auto;
+  margin-bottom: 70px;
+  border-radius: 5px;
   box-shadow: 0px 0px 50px rgb(10, 10, 10);
+  transition: 0.9s !important;
+  overflow: hidden;
+}
+.profile {
+  width: 350px;
+  height: 350px;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 0;
+
+  transition: 0.9s;
+  /* margin-left: -500px; */
 }
 
- .profile
-{
-    
-    width: 350px;
-    height: 350px;
-    border-radius: 15px;
-    padding: 10px;
-    margin:0;
-    
-    transition: .9s;
-    /* margin-left: -500px; */
-} 
-
-.profile:hover
-{
- 
-  /* box-shadow: 0px 0px 50px rgb(10, 10, 10); */
+.name {
+  margin-top: 80px;
+  padding: 0px 15px;
+  text-align: left;
+  line-height: 20px;
+  font-size: 50px;
 }
 
-.name
-{
-    margin-top: 80px;
-    padding: 0px 15px;
-    text-align: left;
-    line-height: 20px;
-    font-size: 50px;
-
+.status {
+  padding: 0px 20px;
+  text-align: left;
+  line-height: 20px;
+  margin: 0;
 }
 
-.status
-{
-    padding: 0px 20px;
-    text-align: left;
-    line-height: 20px;
-    margin: 0;
+.about {
+  height: 240px;
+  padding: 0px 20px;
 }
 
-.about
-{
-    height: 240px;
-    padding: 0px 20px;
+/* ------------------------------------------------------------------Footer css----------------------------------------------------- */
+.xtra_space {
+  margin-right: 0px !important;
 }
 
-
-
-  /* ------------------------------------------------------------------Footer css----------------------------------------------------- */
-  .xtra_space
-  {
-    margin-right: 0px !important;
-  }
-  
 .footer {
-  
   background-color: rgb(143, 175, 223);
   height: 300px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 400;
-  
 }
 
-.about_us a
-{
+.about_us a {
   color: black;
 }
 
-.about_us a:hover
-{
+.about_us a:hover {
   color: black;
- 
 }
 
-.contact li a
-{
+.contact li a {
   font-size: 17px;
-  transition: .7s;
+  transition: 0.7s;
 }
 
-.contact li a:hover
-{
-font-size: 22px;
-
-
+.contact li a:hover {
+  font-size: 22px;
 }
 
 .footer h2 {
@@ -294,23 +242,20 @@ font-size: 22px;
   justify-content: center;
   align-items: center;
   text-align: center;
- 
 }
 
-.footer-body p
-{
+.footer-body p {
   font-size: 28px;
   line-height: 49px;
 }
 
-.footer-body .links a
-{
+.footer-body .links a {
   font-size: 22px;
 }
 
 .footer-copyright {
   background-color: rgb(24, 38, 85);
-  
+
   color: white;
   text-align: center;
   padding: 20px;
@@ -329,4 +274,115 @@ font-size: 22px;
 
 .footer-body ul a {
   color: black;
+}
+
+/* ----------------------------------------------------------media-query-------------------------------------------------------- */
+@media (max-width: 768px) {
+  .ahn .fa {
+    transition: 0.7s;
+    width: 100px;
+    height: 80px;
+    /* box-shadow:0 4px 30px black; */
+  }
+
+  .footer {
+    height: 72vh;
+  }
+
+  .contact li {
+    display: inline;
+    padding-left: 12px;
+  }
+
+  .about_us p {
+    line-height: 40px;
+    font-weight: 500;
+  }
+
+  .footer-copyright {
+    padding: 9px;
+  }
+
+  .image {
+    margin: 2px 7px;
+  }
+
+  .info-container {
+    width: 100vw;
+  }
+
+  .name {
+    margin-top: 0px;
+    line-height: 26px;
+    font-size: 29px;
+  }
+
+  .info h3 {
+    margin-top: 0px;
+    margin-bottom: 4px;
+    line-height: 21px;
+    font-size: 23px;
+  }
+
+  .info p {
+    line-height: 13px;
+  }
+
+  .image-container {
+    width: 96vw;
+    margin: 47px auto;
+  }
+
+  .info-container {
+    width: 98vw;
+    height: 37vh;
+    margin-bottom: 27px;
+    margin-top: 60px;
+  }
+  .profile {
+    width: 257px;
+    height: 277px;
+  }
+
+  .info {
+    height: 264px;
+  }
+
+  .about {
+    height: 143px;
+    padding: 0px 9px;
+    width: 150px;
+    margin-top: 10px;
+  }
+  p {
+    font-size: 15px;
+    font-weight: 100;
+  }
+
+  .col-xs-6 {
+    padding: 20px !important;
+  }
+}
+
+@media (max-width: 360px) {
+  .info-container {
+    width: 97vw;
+    height: 45vh;
+  }
+  .heading {
+    margin-right: 27px;
+  }
+  .image-container .row {
+    margin-left: 25px !important;
+  }
+
+  .profile {
+    padding: 10px;
+    margin: -22px;
+  }
+
+  .info {
+    padding: 7px;
+    margin: 3px;
+  }
 }

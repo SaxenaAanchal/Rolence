@@ -120,33 +120,25 @@ h1 {
 }
 
 .ahn .text {
-  font-size: 18px;
-  transition: 0.7s;
+  font-size: 22px;
+  font-weight: 700;
   color: #375a28;
 }
 
-.ahn .text:hover {
-  font-size: 22px;
-  font-weight: 900;
-  color: #53813f;
-}
-
 .ahn .fa {
-  transition: 0.7s;
   width: 200px;
   height: 80px;
-  /* box-shadow:0 4px 30px black; */
 }
 
-.ahn .fa:hover {
-  /* border-color: tan; */
+/* .ahn .fa:hover {
+ 
   box-shadow: 0 4px 30px black;
   width: 210px;
   height: 100px;
   border-radius: 24px;
   background-color: rgb(204, 224, 250) !important;
-  /* box-shadow: ; */
-}
+  
+} */
 
 /* -----------------------------------------------------------------Design css----------------------------------------------------- */
 #promo {
@@ -169,6 +161,7 @@ h1 {
 
 #promo .btn a {
   color: #fff;
+  text-decoration: none;
 }
 
 #promo .btn {
@@ -180,6 +173,7 @@ h1 {
   height: 50px;
   box-shadow: 0 4px 30px rgb(165, 45, 45);
 }
+
 #promo .btn:hover {
   background-color: rgb(17, 16, 16) !important;
   color: white !important;
@@ -258,6 +252,8 @@ hr {
   font-weight: 400;
 }
 
+
+
 .about_us a {
   color: black;
 }
@@ -320,12 +316,51 @@ hr {
 .footer-body ul a {
   color: black;
 }
+/* ----------------------------------------------------------media-query-------------------------------------------------------- */
+@media (max-width: 768px) 
+{
 
-@media (max-width: 768px) {
-  .ahn .fa {
+  #promo p
+  {
+    margin-left: -40px;
+  }
+
+  .ahn .fa 
+  {
     transition: 0.7s;
     width: 100px;
     height: 80px;
     /* box-shadow:0 4px 30px black; */
   }
+
+  #promo .btn 
+{
+  width: 200px;
+  margin-left: -36px;
 }
+
+  .footer
+{
+  height: 72vh;
+}
+
+
+.contact li
+{
+  display: inline;
+  padding-left: 12px;
+}
+
+.about_us p 
+{
+  line-height: 40px;
+  font-weight: 500;
+}
+
+.footer-copyright
+{
+  padding: 9px;
+}
+}
+
+
